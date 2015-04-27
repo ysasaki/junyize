@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "Junyize",
+  "description": "Junya appears in realworld.co.jp",
+  "version": "1.0.0",
+  "content_scripts": [
+    {
+      "matches": ["http://realworld.co.jp/"],
+      "js": ["js/junyize.js"]
+    }
+  ],
+  "web_accessible_resources": [
+    "images/*"
+  ]
+}
